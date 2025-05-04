@@ -9,7 +9,7 @@ const Terms = () => {
         
         <section className="terms-section">
           <h2>1. OVERVIEW</h2>
-          <p>This Terms of Service Agreement ("Agreement") is entered into by and between Jorick Ultra Luxury Life Pvt. Ltd. (K9 School), registered address First Floor, Flat No. F7-12, Block F1, DDA Flats, Vasant Kunj, New Delhi, South Delhi, Delhi – 110023, India and you, and is made effective as of the date of your use of this website – https://www.k9school.in or any of K9 School's services or the date of electronic acceptance of the Google forms.</p>
+          <p>This Terms of Service Agreement  is entered into by and between Jorick Ultra Luxury Life Pvt. Ltd. (K9 School), registered address First Floor, Flat No. F7-12, Block F1, DDA Flats, Vasant Kunj, New Delhi, South Delhi, Delhi – 110023, India and you, and is made effective as of the date of your use of this website – https://www.k9school.in or any of K9 School services or the date of electronic acceptance of the Google forms.</p>
           {/* ... rest of Overview content ... */}
         </section>
 
@@ -33,7 +33,7 @@ const Terms = () => {
               {/* ... other boarding facility points ... */}
             </ul>
 
-            <h4>Board & Train Facility ("B&T Facility")</h4>
+            <h4>Board & Train Facility </h4>
             <ul>
               <li>K9 School now offers a B&T Facility, wherein the package would in addition to the facilities of Boarding</li>
               {/* ... other B&T facility points ... */}
