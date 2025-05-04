@@ -38,7 +38,7 @@ const Consultation = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Expert advice and personalized solutions for your dog's behavior
+            Expert advice and personalized solutions for your dog behavior
           </motion.p>
         </div>
       </section>
@@ -133,7 +133,7 @@ const Consultation = () => {
       {/* CTA Section */}
       <section className="consultation-cta">
         <div className="cta-content">
-          <h2>Ready to Transform Your Dog's Behavior?</h2>
+          <h2>Ready to Transform Your Dog Behavior?</h2>
           <p>Schedule your consultation today and take the first step towards a better relationship with your dog</p>
           <button onClick={handleContact} className="cta-button">
             Schedule Consultation
