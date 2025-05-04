@@ -283,7 +283,7 @@ const About = () => {
           className="section-content"
           {...fadeInUp}
         >
-          <h2 className="cta-title">Ready to Start Your Dog's Training Journey?</h2>
+          <h2 className="cta-title">Ready to Start Your Dogs Training Journey?</h2>
           <p className="cta-text">
             Contact us today to schedule a consultation and learn more about our programs.
           </p>
