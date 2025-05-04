@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.services-page {
+  padding: 2rem;
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.service-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.service-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #d1d1d1;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.happy-families-section {
+  background-color: #fcfcfc;
+  padding: 4rem 2rem;
+}
+
+.happy-families-content {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.text-container {
+  flex: 1;
+  color: #1e293b;
+}
+
+.text-container h1 {
+  font-size: 3rem;
+  color: #ff6f61;
+}
+
+.text-container p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #334155;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #1e40af;
+}

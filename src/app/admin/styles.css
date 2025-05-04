@@ -1,0 +1,43 @@
+.admin-panel {
+    @apply min-h-screen bg-black text-white;
+  }
+  
+  .admin-header {
+    @apply bg-gray-900 p-6 mb-8;
+  }
+  
+  .admin-content {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  
+  .table-container {
+    @apply bg-gray-900 rounded-lg overflow-hidden;
+  }
+  
+  .table-header {
+    @apply bg-gray-800 p-4;
+  }
+  
+  .table-cell {
+    @apply p-4 border-b border-gray-800;
+  }
+  
+  .button-primary {
+    @apply bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition;
+  }
+  
+  .button-danger {
+    @apply bg-red-600 px-4 py-2 rounded hover:bg-red-700 transition;
+  }
+  
+  .input-search {
+    @apply w-full p-2 bg-gray-800 rounded-lg mb-6;
+  }
+  
+  .pagination {
+    @apply flex justify-center gap-2 mt-6;
+  }
+  
+  .pagination-button {
+    @apply px-4 py-2 bg-gray-800 rounded disabled:opacity-50;
+  }

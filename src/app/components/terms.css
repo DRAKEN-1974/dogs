@@ -1,0 +1,132 @@
+.terms-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  
+  .terms-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-main-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .terms-section {
+    margin-bottom: 40px;
+  }
+  
+  .terms-section h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-section h3 {
+    font-size: 1.4rem;
+    color: #000000;
+    margin: 25px 0 15px;
+  }
+  
+  .terms-section h4 {
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 20px 0 10px;
+  }
+  
+  .terms-section p {
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .facilities-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 15px 0;
+  }
+  
+  .facilities-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .facilities-section li {
+    position: relative;
+    padding: 8px 0 8px 25px;
+    color: #333333;
+  }
+  
+  .facilities-section li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000000;
+  }
+  
+  .contact-info {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  
+  .contact-info address {
+    font-style: normal;
+    line-height: 1.6;
+    color: #333333;
+  }
+  
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 20px 10px;
+    }
+  
+    .terms-content {
+      padding: 20px;
+    }
+  
+    .terms-main-title {
+      font-size: 2rem;
+    }
+  
+    .terms-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .terms-section h3 {
+      font-size: 1.3rem;
+    }
+  
+    .terms-section h4 {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Print styles */
+  @media print {
+    .terms-container {
+      padding: 0;
+    }
+  
+    .terms-content {
+      box-shadow: none;
+    }
+  
+    .terms-section {
+      page-break-inside: avoid;
+    }
+  }

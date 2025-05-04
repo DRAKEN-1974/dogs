@@ -1,0 +1,338 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+/* Base Styling */
+.last-section {
+  background: linear-gradient(135deg, #f3e8ff, #e4c1f9);
+  padding: 60px 20px;
+  min-height: 100vh;
+  font-family: 'Sora', sans-serif;
+}
+
+.last-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.last-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.last-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #5c248c;
+  margin-bottom: 15px;
+}
+
+.last-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* Quick Inquiry Form */
+.quick-inquiry-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.quick-inquiry-box h3 {
+  color: #5c248c;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.quick-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quick-form-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.quick-form input,
+.quick-form textarea {
+  padding: 12px;
+  border: 2px solid #e4c1f9;
+  border-radius: 8px;
+  font-family: 'Sora', sans-serif;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.quick-form input:focus,
+.quick-form textarea:focus {
+  border-color: #5c248c;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(92, 36, 140, 0.1);
+}
+
+.quick-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.quick-submit-btn {
+  background: linear-gradient(135deg, #5c248c, #8435c7);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quick-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 36, 140, 0.2);
+}
+
+.form-divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.form-divider::before,
+.form-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background: #ddd;
+}
+
+.form-divider::before {
+  left: 0;
+}
+
+.form-divider::after {
+  right: 0;
+}
+
+.form-divider span {
+  background: white;
+  padding: 0 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.show-detailed-btn {
+  background: none;
+  border: 2px solid #5c248c;
+  color: #5c248c;
+  padding: 12px 24px;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.show-detailed-btn:hover {
+  background: #5c248c;
+  color: white;
+}
+
+/* Detailed Form */
+.staycation-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin: 40px auto 0;
+  max-width: 1000px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  padding: 12px 16px;
+  border: 2px solid #e4c1f9;
+  border-radius: 8px;
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #5c248c;
+  box-shadow: 0 0 0 3px rgba(92, 36, 140, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #5c248c, #8435c7);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(92, 36, 140, 0.2);
+}
+
+.submit-btn:disabled,
+.quick-submit-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Status Messages */
+.status-message {
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-message.success {
+  background-color: #e6f4ea;
+  color: #1e7e34;
+  border: 1px solid #a8e6b9;
+}
+
+.status-message.error {
+  background-color: #fde7e9;
+  color: #d32f2f;
+  border: 1px solid #ffa4a9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .last-section {
+    padding: 40px 20px;
+  }
+
+  .last-title {
+    font-size: 36px;
+  }
+
+  .last-subtitle {
+    font-size: 20px;
+  }
+
+  .quick-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .staycation-form {
+    padding: 20px;
+  }
+
+  .quick-inquiry-box {
+    padding: 20px;
+  }
+
+  .submit-btn,
+  .quick-submit-btn {
+    padding: 14px 24px;
+    font-size: 16px;
+  }
+}
+
+/* Animation for Form Appearance */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.staycation-form {
+  animation: slideDown 0.4s ease-out;
+}
+
+/* Input Placeholder Styling */
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+/* Focus Effect for Buttons */
+.submit-btn:focus,
+.quick-submit-btn:focus,
+.show-detailed-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(92, 36, 140, 0.2);
+}
+
+/* Custom Scrollbar for Textarea */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #e4c1f9;
+  border-radius: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #5c248c;
+}

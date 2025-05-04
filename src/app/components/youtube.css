@@ -1,0 +1,249 @@
+/* Base Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
+/* YouTube Section Styles */
+.youtube-section {
+  padding: 5rem 2rem;
+  background-color: white;
+  font-family: 'Sora', sans-serif;
+}
+
+.youtube-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Sora', sans-serif;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 1rem;
+  font-family: 'Sora', sans-serif;
+}
+
+.section-title p {
+  font-size: 1.25rem;
+  color: #666;
+  font-family: 'Sora', sans-serif;
+}
+
+/* Video Container */
+.video-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Channel Info */
+.channel-info {
+  margin-top: 4rem;
+  font-family: 'Sora', sans-serif;
+}
+
+.subscribe-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.channel-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Sora', sans-serif;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  font-family: 'Sora', sans-serif;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-family: 'Sora', sans-serif;
+}
+
+/* Subscribe Button */
+.subscribe-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background-color: #FF0000;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Sora', sans-serif;
+}
+
+.subscribe-button:hover {
+  background-color: #CC0000;
+}
+
+.youtube-icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+/* Featured Playlists */
+.featured-playlists {
+  margin-top: 4rem;
+}
+
+.featured-playlists h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: black;
+  font-family: 'Sora', sans-serif;
+}
+
+.playlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.playlist-card {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  font-family: 'Sora', sans-serif;
+}
+
+.playlist-card:hover {
+  transform: translateY(-10px);
+}
+
+.playlist-thumbnail {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.playlist-thumbnail img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.playlist-count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-family: 'Sora', sans-serif;
+}
+
+.playlist-card h4 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: black;
+  font-family: 'Sora', sans-serif;
+}
+
+/* Button Styles */
+button {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Text Elements */
+h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .youtube-section {
+    padding: 3rem 1rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .channel-stats {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .playlist-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Maintain font consistency in mobile */
+  .section-title h2,
+  .section-title p,
+  .stat-number,
+  .stat-label,
+  .subscribe-button,
+  .featured-playlists h3,
+  .playlist-card h4,
+  .playlist-count {
+    font-family: 'Sora', sans-serif;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.video-container,
+.subscribe-section,
+.playlist-card {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Universal Font Override */
+* {
+  font-family: 'Sora', sans-serif;
+}
