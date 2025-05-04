@@ -331,21 +331,26 @@
   }
 }
 
-/* ✅ FIXED GLOBAL SCROLLBAR STYLES FOR NEXT.JS */
-:global(::-webkit-scrollbar) {
+/* Scrollbar styles - Fixed by adding a local class */
+.scrollbarStyles {
+  /* This is a local class to attach global scrollbar styles */
+}
+
+/* Attach global styles to the local class */
+.scrollbarStyles :global(::-webkit-scrollbar) {
   width: 10px;
 }
 
-:global(::-webkit-scrollbar-track) {
+.scrollbarStyles :global(::-webkit-scrollbar-track) {
   background: #f1f1f1;
 }
 
-:global(::-webkit-scrollbar-thumb) {
+.scrollbarStyles :global(::-webkit-scrollbar-thumb) {
   background: #888;
   border-radius: 5px;
 }
 
-:global(::-webkit-scrollbar-thumb:hover) {
+.scrollbarStyles :global(::-webkit-scrollbar-thumb:hover) {
   background: #555;
 }
 
