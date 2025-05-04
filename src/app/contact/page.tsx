@@ -159,7 +159,7 @@ export default function ContactPage() {
             >
               <h1 className={styles.title}>Contact Us</h1>
               <p className={styles.subtitle}>
-                We're here to help with your dog training needs
+                We are here to help with your dog training needs
               </p>
             </motion.div>
 
