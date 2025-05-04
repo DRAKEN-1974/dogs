@@ -59,7 +59,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            Transform your dog's behavior with our expert training programs. 
+            Transform your dog behavior with our expert training programs. 
             We specialize in obedience training, behavioral modification, 
             and creating lasting bonds between dogs and their owners.
           </motion.p>
