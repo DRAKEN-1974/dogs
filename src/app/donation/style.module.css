@@ -330,7 +330,7 @@
 }
 
 /* Custom Scrollbar */
-:global(::-webkit-scrollbar) {
+.myClass :global(::-webkit-scrollbar) {
   width: 10px;
 }
 
