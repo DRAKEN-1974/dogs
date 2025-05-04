@@ -89,7 +89,7 @@ const Boarding = () => {
       {/* CTA Section */}
       <section className="boarding-cta">
         <div className="cta-content">
-          <h2>Ready to Book Your Dog's Stay?</h2>
+          <h2>Ready to Book Your Dogs Stay?</h2>
           <p>Secure a comfortable and safe space for your furry friend</p>
           <button onClick={handleContact} className="cta-button">
             Reserve Now
