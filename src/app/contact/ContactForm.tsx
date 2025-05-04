@@ -128,7 +128,7 @@ const ContactForm = () => {
       <div className="contact-card">
         <div className="form-header">
           <h1>Contact Us</h1>
-          <p>Have a question or feedback? We'd love to hear from you.</p>
+          <p>Have a question or feedback? We had love to hear from you.</p>
         </div>
 
         <form onSubmit={handleSubmit}>
