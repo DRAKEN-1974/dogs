@@ -1,11 +1,11 @@
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
   eslint: {
-    // Warning instead of error when linting
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Warning instead of error during build
     ignoreBuildErrors: true,
   },
 };
