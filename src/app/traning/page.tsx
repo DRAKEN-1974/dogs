@@ -26,7 +26,7 @@ const Training = () => {
         <div className="hero-content">
           <h1 className="hero-title fade-in">Train Your Dog</h1>
           <p className="hero-description fade-in">
-            Expert training programs tailored for your dog's unique needs and personality
+            Expert training programs tailored for your dog unique needs and personality
           </p>
         </div>
       </section>
@@ -85,7 +85,7 @@ const Training = () => {
       {/* CTA Section */}
       <section className="cta-section">
         <div className="cta-container">
-          <h2 className="cta-title">Ready to Transform Your Dog's Behavior?</h2>
+          <h2 className="cta-title">Ready to Transform Your Dog Behavior?</h2>
           <p className="cta-description">
             Schedule a consultation with our expert trainers today
           </p>
