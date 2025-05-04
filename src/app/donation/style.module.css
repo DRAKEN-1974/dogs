@@ -331,52 +331,52 @@
   }
 }
 
-/* Scrollbar styles - Fixed by adding a local class */
-.scrollbarStyles {
-  /* This is a local class to attach global scrollbar styles */
+/* Global styles wrapper - all global styles must be attached to this class */
+.globalStyles {
+  /* This is a local class to attach global styles */
 }
 
-/* Attach global styles to the local class */
-.scrollbarStyles :global(::-webkit-scrollbar) {
+/* Scrollbar styles */
+.globalStyles :global(::-webkit-scrollbar) {
   width: 10px;
 }
 
-.scrollbarStyles :global(::-webkit-scrollbar-track) {
+.globalStyles :global(::-webkit-scrollbar-track) {
   background: #f1f1f1;
 }
 
-.scrollbarStyles :global(::-webkit-scrollbar-thumb) {
+.globalStyles :global(::-webkit-scrollbar-thumb) {
   background: #888;
   border-radius: 5px;
 }
 
-.scrollbarStyles :global(::-webkit-scrollbar-thumb:hover) {
+.globalStyles :global(::-webkit-scrollbar-thumb:hover) {
   background: #555;
 }
 
 /* Input Autofill Styles */
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
+.globalStyles :global(input:-webkit-autofill),
+.globalStyles :global(input:-webkit-autofill:hover),
+.globalStyles :global(input:-webkit-autofill:focus) {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
   -webkit-text-fill-color: #000;
   transition: background-color 5000s ease-in-out 0s;
 }
 
 /* Placeholder Styles */
-::placeholder {
+.globalStyles :global(::placeholder) {
   color: #999;
   opacity: 1;
   font-family: 'Sora', sans-serif;
 }
 
 /* Focus Outline */
-:focus {
+.globalStyles :global(:focus) {
   outline: none;
 }
 
 /* Selection Color */
-::selection {
+.globalStyles :global(::selection) {
   background: #000;
   color: white;
 }
