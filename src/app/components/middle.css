@@ -1,6 +1,6 @@
 .featured-section {
-  background-color: #111111;
-  color: white;
+  background-color: #ffffff; /* Changed to white */
+  color: black; /* Text color changed to black */
   padding: 120px 0;
   min-height: 100vh;
   overflow: hidden;
@@ -23,10 +23,11 @@
   font-weight: 500;
   margin-bottom: 1rem;
   font-family: 'Sora', sans-serif;
+  color: black; /* Black text */
 }
 
 .section-title p {
-  color: #888;
+  color: #444; /* Dark gray for subtext */
   font-size: 1.1rem;
   font-family: 'Sora', sans-serif;
 }
@@ -53,11 +54,11 @@
 .destination-card {
   min-width: 320px;
   max-width: 320px;
-  background: #1a1a1a;
+  background: #f7f7f7; /* Light gray card */
   border-radius: 20px;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Softer shadow */
   height: 520px;
   display: flex;
   flex-direction: column;
@@ -73,8 +74,8 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  background: rgba(255, 255, 255, 0.9);
-  color: #111;
+  background: rgba(0, 0, 0, 0.85); /* Dark badge */
+  color: white;
   padding: 8px 16px;
   border-radius: 30px;
   font-size: 0.8rem;
@@ -96,10 +97,11 @@
   margin-bottom: 1rem;
   font-weight: 500;
   font-family: 'Sora', sans-serif;
+  color: black;
 }
 
 .card-content p {
-  color: #888;
+  color: #555; /* Darker gray */
   margin-bottom: 1.5rem;
   line-height: 1.6;
   flex-grow: 1;
@@ -163,29 +165,29 @@
 
 @media (max-width: 768px) {
   .featured-section {
-      padding: 80px 0;
+    padding: 80px 0;
   }
 
   .section-title h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .destination-card {
-      min-width: 280px;
-      max-width: 280px;
-      height: 480px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 480px;
   }
 
   .card-image {
-      height: 280px;
+    height: 280px;
   }
 
   .card-content h3 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .explore-btn {
-      padding: 10px 20px;
-      font-size: 0.9rem;
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 }
