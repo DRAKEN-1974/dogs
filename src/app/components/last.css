@@ -3,7 +3,7 @@
 
 /* Base Styling */
 .last-section {
-  background: black;
+  background: white;
   padding: 60px 20px;
   min-height: 100vh;
   font-family: 'Sora', sans-serif;
@@ -22,14 +22,14 @@
 .last-title {
   font-size: 48px;
   font-weight: 700;
-  color: #5c248c;
+  color: black;
   margin-bottom: 15px;
 }
 
 .last-subtitle {
   font-size: 24px;
   font-weight: 400;
-  color: #333;
+  color: black;
 }
 
 /* Quick Inquiry Form */
@@ -44,7 +44,7 @@
 }
 
 .quick-inquiry-box h3 {
-  color: #5c248c;
+  color: black;
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
@@ -70,6 +70,8 @@
   font-family: 'Sora', sans-serif;
   width: 100%;
   transition: all 0.3s ease;
+  color: black;
+  background: white;
 }
 
 .quick-form input:focus,
@@ -156,6 +158,7 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   margin: 40px auto 0;
   max-width: 1000px;
+  color: black;
 }
 
 .form-grid {
@@ -177,7 +180,7 @@
 label {
   font-size: 14px;
   font-weight: 500;
-  color: #333;
+  color: black;
   margin-bottom: 8px;
 }
 
@@ -188,6 +191,8 @@ input, textarea {
   font-family: 'Sora', sans-serif;
   font-size: 16px;
   transition: all 0.3s ease;
+  color: black;
+  background: white;
 }
 
 input:focus, textarea:focus {
