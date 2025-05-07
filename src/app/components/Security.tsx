@@ -32,7 +32,7 @@ const SecurityDogs = () => {
             At [Your Company], our mission is to provide unparalleled security services with the help of our elite team of
             security dogs. These highly trained canines are not just guards—they are loyal protectors, ensuring safety and
             peace of mind wherever they serve. We are committed to excellence, precision, and dedication in every aspect of
-            security. Whether it's patrolling premises, detecting threats, or offering companionship with purpose, our
+            security. Whether its patrolling premises, detecting threats, or offering companionship with purpose, our
             security dogs are always prepared to safeguard lives and assets.
           </p>
         </div>
