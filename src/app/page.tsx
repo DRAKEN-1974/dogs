@@ -6,7 +6,8 @@ import Last from './components/last';
 import Footer from './components/footer';
 import Values from './components/Values';
 import YouTube from './components/youtube';
-import ChatBox from './components/chatbox'
+import ChatBox from './components/chatbox';
+import Security from './components/Security';
 
 const Page = () => {
   return (
@@ -14,7 +15,8 @@ const Page = () => {
       <Top />
       <Middle />
       <Third />
-      <Last />
+      <Security />
+       <Last />
       <Values />
       <YouTube />
       <Footer />
