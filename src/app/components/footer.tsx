@@ -23,6 +23,12 @@ const socialLinks = [
     name: 'YouTube',
     href: 'https://youtube.com',
     description: 'Watch traning guides'
+  },
+  {
+    id: 4,
+    name: 'Facebook',
+    href: 'https://youtube.com',
+    description: 'Watch traning guides'
   }
 ];
 
